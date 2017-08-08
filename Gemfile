@@ -55,6 +55,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "spring", group: :development
 
-group :test do
-  gem "minitest"
-end
+gem 'minitest', group: :test
+gem 'minitest-reporters', group: :test
