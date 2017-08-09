@@ -57,3 +57,6 @@ gem "spring", group: :development
 
 gem 'minitest', group: :test
 gem 'minitest-reporters', group: :test
+  
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'rails-controller-testing'
